@@ -8,11 +8,10 @@
 
     border-radius: .9375rem;
     overflow: hidden;
-    
-    //remove this
-    // margin: 100px 0 50px 0;
 
     padding: 1.5rem;
+
+    box-shadow: 0 18px 10px 12px #0C1729, 0 0 2px 40px #0C192C;
 
     #{&}__image{
         width: 100%;

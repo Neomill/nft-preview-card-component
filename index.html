@@ -8,6 +8,14 @@
   
   <title>Frontend Mentor | NFT preview card component</title>
 
+  <!-- custom css -->
+  <link rel="stylesheet" href="./dist/css/main.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"> 
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -25,8 +33,11 @@
       <div class="card__body">
         <h1 class="card__title">Equilibrium #3429</h1>
         <p class="card__copy">Our Equilibrium collection promotes balance and calm.</p>
-        <span class="card__eth_value">0.041 ETH</span>
-        <time class="card__time_left">3 days left</time>
+        <div class="card__eth_time_container">
+          <span class="card__eth_value">0.041 ETH</span>
+          <time class="card__time_left">3 days left</time>
+        </div>
+        <hr>
         <span class="card__creator">Creation of<a href="">Jules Wyvern</a></span>
       </div>
     </article>

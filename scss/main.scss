@@ -3,14 +3,27 @@
 @import './card';
 @import './mixin';
 
+html{
+    height: 100%;
+    
+}
+
 body{
+    height: 100%;
     background-color: $background-color;
     font-family: 'Outfit', sans-serif;
     color: $copy-color;
+    position: relative;
 }
 
 main{
+    min-height: 100%;
     width: 100%;
-    height: 100%;
     @include flexcontent();
+}
+
+.attribution{
+    position: relative;
+    text-align: center;
+    bottom: 0;
 }

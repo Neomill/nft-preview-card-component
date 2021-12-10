@@ -36,6 +36,7 @@
     }
 
     #{&}__figure:hover:before{
+        color:$soft-blue;
         display: block;
         cursor: pointer;
     }
